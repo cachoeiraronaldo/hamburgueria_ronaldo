@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: #f6f7f8;
+}
+
+.container {
+    background-color: #fafafa;
+    border-radius: 14px;
+    margin-left: 20px; /* Afastado um pouco do canto esquerdo */
+    padding: 5px; /* Reduz o padding para deixar mais compacto */
+    max-width: 125px; /* Metade do tamanho anterior */
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+    font-size: 0.9rem; /* Diminui ainda mais o tamanho do texto */
+    line-height: 1rem; /* Reduz o espaçamento entre as linhas */
+    margin-bottom: 5px; /* Ajusta a margem inferior para economizar espaço */
+}
+
+
+input[type="text"],
+input[type="password"] {
+    font-size: 0.8rem; /* Reduz o tamanho do texto dentro dos inputs */
+    padding: 5px; /* Diminui o padding para ajustar o tamanho dos campos */
+}
+
+button {
+    font-size: 0.8rem; /* Reduz o tamanho do texto do botão */
+    padding: 5px; /* Diminui o padding do botão */
+}
+
+
+  
